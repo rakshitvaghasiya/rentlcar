@@ -5,7 +5,6 @@ import { toast } from "react-toastify";
 const PaymentPage = () => {
   const navigate = useNavigate();
   const [booking, setBooking] = useState(null);
-  const [car, setCar] = useState(null);
 
   // ✅ Load booking & car data
   useEffect(() => {

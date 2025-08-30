@@ -1,4 +1,3 @@
-import { Routes, Route } from "react-router-dom";
 import CarBanner from "./banner";
 import Hero from "./hero";
 import MostHired from "./mosthired";
